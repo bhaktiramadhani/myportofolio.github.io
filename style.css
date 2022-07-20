@@ -427,6 +427,7 @@ form .f-btn button {
   display: flex;
   align-items: center;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 form .f-btn button:hover {

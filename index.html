@@ -15,6 +15,7 @@
     ></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <!-- NAVIGATION -->
@@ -118,14 +119,14 @@
             <h2>Contact Me</h2>
           </div>
           <div class="c-main">
-            <form>
+            <form name="bhakti-contact-form">
               <div
                 class="f-name"
                 data-aos="fade-right"
                 data-aos-duration="1500"
               >
                 <label for="name">Name</label>
-                <input type="text" />
+                <input type="text" name="nama" id="nama" />
               </div>
               <div
                 class="f-email"
@@ -133,7 +134,7 @@
                 data-aos-duration="1500"
               >
                 <label for="email">Email</label>
-                <input type="email" />
+                <input type="email" name="email" id="email" />
               </div>
               <div
                 class="f-message"
@@ -141,7 +142,7 @@
                 data-aos-duration="1500"
               >
                 <label for="message">Message</label>
-                <textarea name="message" id="" cols="10" rows="5"></textarea>
+                <textarea cols="10" rows="5" name="pesan" id="pesan"></textarea>
               </div>
               <div class="f-btn">
                 <button type="submit">SEND</button>
