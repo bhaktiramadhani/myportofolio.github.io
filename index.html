@@ -126,7 +126,7 @@
                 data-aos-duration="1500"
               >
                 <label for="name">Name</label>
-                <input type="text" name="nama" id="nama" />
+                <input type="text" name="nama" id="nama" required />
               </div>
               <div
                 class="f-email"
@@ -134,7 +134,7 @@
                 data-aos-duration="1500"
               >
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
+                <input type="email" name="email" id="email" required />
               </div>
               <div
                 class="f-message"
@@ -142,7 +142,13 @@
                 data-aos-duration="1500"
               >
                 <label for="message">Message</label>
-                <textarea cols="10" rows="5" name="pesan" id="pesan"></textarea>
+                <textarea
+                  cols="10"
+                  rows="5"
+                  name="pesan"
+                  id="pesan"
+                  required
+                ></textarea>
               </div>
               <div class="f-btn">
                 <button type="submit">SEND</button>

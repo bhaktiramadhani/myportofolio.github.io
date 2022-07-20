@@ -28,9 +28,7 @@ form.addEventListener("submit", (e) => {
           "Pesan anda telah terkirim, Terimakasih!",
           "success"
         );
-        document.getElementById("nama").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("pesan").value = "";
+        form.reset();
       });
     }, 2000)
     .catch((error) => console.error("Error!", error.message));
